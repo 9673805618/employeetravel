@@ -1,0 +1,13 @@
+
+<div class="container">
+    <form (submit)="verifyUser()" >
+      <h2 class="hname">Login Form</h2>
+      <label for="">UserId : </label>
+      <input type="text" class="userlog" name="userId" [(ngModel)]="login.userId" placeholder="ENTER USERID" required>
+      <br>
+      <label for="">password: </label>
+      <input type="text" class="userlog" name="password" [(ngModel)]="login.password" placeholder="ENTER PASSWORD" required>
+      <br>
+      <input type="submit" class="submit" value="Login">
+    </form>
+  </div>
